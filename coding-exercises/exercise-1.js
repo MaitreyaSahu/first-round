@@ -21,3 +21,7 @@ moveFilterTo("Form Factor", 1);
 
 //Processor at third place
 moveFilterTo("Processor", 3);
+
+document
+  .querySelectorAll("p:not(:last-child)")
+  .forEach((elem) => elem.addEventListener("click", () => alert("clicked")));
