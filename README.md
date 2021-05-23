@@ -27,10 +27,15 @@
 
 ## 2. What is the width of a container with 100px of width and 5px of padding?
 
-> - It depends on elemets css **box-sizing** property.
-> - If box-sizing property is not set the default value is **content-box**. which means the width value will be applied only to the content and the padding and border width will be added on top of that which will make the element width is equal to width of the content + padding width + border width.
-> - In this case if the box-sizing property is not set of set to content box then the final width of the element will be 100 + 5 + 5 = 110px
-> - if it is set to **border-box**, then the final wuidth of the element will be eqal to the 100px.
+> - It depends on the element's css **box-sizing** property.
+> - If box-sizing property is not set, the default value is **content-box**. and the width property value doesn't take padding and border in account.
+> - Which means the width value will be applied only to the content and the padding and border width will be added separately.
+> - Which will make the final width of the element is equal to the width of the content + padding width (left + right) + border width (left + right).
+>
+>   - *In this case, if the box-sizing property is not set or if it is set as content box then the final width of the element will be 100 (content width) + 5 (left padding) + 5 (right padding) = 110px*
+> 
+> - If it is set as **border-box**, then the width propery of the element takes both padding and margin into account.
+>   - *In this case, the actual width of the element will be eqal to 100px. Because the padding and border will not take any extra space, the content width will be auto adjusted.*
 
 ## 3. How to apply a click event to all paragraphs except for the last?
 ```javascript
@@ -50,12 +55,17 @@ function identity() {
 var who = identity();
 alert(who);
 ```
->- Javascript compiler automatically adds semicolon after all the statements.
->- Javascript considers return keyword as a statement and it adds a semicon after that.
->- To avoid this issue either we can keep the return expression at the same line next to return keyword followed by a space character.
->- Or we can wrap our return expression in a parenthesis. provided the opening parenthesis must be in the same line with the retun key word.
+> - Javascript compiler automatically adds semicolon after each statement.
+>
+> - If nothing is there after return keyword in the same line, It is considered as an empty return statement and a semicolon will gets added after that.
+> - And an empty return statement allways returns undefined. 
+> - To avoid this issue either we can keep the return expression at the same line next to return keyword followed by a space character.
+> - Or we can wrap our return expression in a parenthesis. provided the opening parenthesis must be in the same line with the retun keyword.
+
 
 ## 5. Are display: none; and visibility: hidden; are different? Explain.
->- Both will hide the element with a subtle difference.
->- But the differnce is display: none will hides the element and and it will not even take any space in the the browser window as if the element is not present at all.
->- Where as for visibility: hidden, it will just hide the visibiity of the element by keeping the space taken by the element untouched. 
+> - Both will hide the element with a subtle difference.
+>
+> - But the differnce is the display: none property, hides the element and and it doesn't even take any space in the the browser window as if the element is not present at all.
+> - Where as the visibility: hidden property, just hides the visibiity of the element and keeps the space taken by the element untouched. 
+> - It means the element will occupy the space in the browser window but the content will not be visible.
