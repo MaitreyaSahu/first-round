@@ -1,7 +1,7 @@
 
 
-| [General Exercises](https://github.com/MaitreyaSahu/first-round/tree/master/general-exercises#general-exercises) | [Coding Exercises](https://github.com/MaitreyaSahu/first-round/tree/master/coding-exercises#coding-exercises) |
-| ----------- | ----------- |
+| [General Exercises](https://github.com/MaitreyaSahu/first-round/tree/master/general-exercises#general-exercises) | [Coding Exercises](https://github.com/MaitreyaSahu/first-round/tree/master/coding-exercises#coding-exercises) | [My Portfolio](https://github.com/MaitreyaSahu) |
+| ----------- | ----------- | ----------- |
 ------
 # Coding Exercises:
 
