@@ -1,5 +1,8 @@
-- [General Exercises](https://github.com/MaitreyaSahu/first-round/tree/master/general-exercises#general-exercises)
-- [Coding Exercises](https://github.com/MaitreyaSahu/first-round/tree/master/coding-exercises#coding-exercises)
+
+
+| [General Exercises](https://github.com/MaitreyaSahu/first-round/tree/master/general-exercises#general-exercises) | [Coding Exercises](https://github.com/MaitreyaSahu/first-round/tree/master/coding-exercises#coding-exercises) |
+| ----------- | ----------- |
+------
 
 # General Exercises
 ## 1. Assess your knowledge level on the following languages *(1 = none; 5 = expert)*:
