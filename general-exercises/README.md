@@ -59,8 +59,17 @@ alert(who);
 >
 > - If nothing is there after return keyword in the same line, It is considered as an empty return statement and a semicolon will gets added after that.
 > - And an empty return statement allways returns undefined. 
-> - To avoid this issue either we can keep the return expression at the same line next to return keyword followed by a space character.
-> - Or we can wrap our return expression in a parenthesis. provided the opening parenthesis must be in the same line with the retun keyword.
+> - So, If we run the function identity, It will return undefined.
+> 
+>   - in line no 7, we are invoking the function "identity" and storing its return value in the variable "who". 
+>    - That is why first it will execute the function, and then it will store the returned value to the declared variable.
+> 
+>    - Inside the function, as we are assigning a value "Jack" to name and using that name in the function alert, so it will alert the name "Jack".
+> 
+>   - After that since we have an empty return statement, the function will return "undefined", which is going to be stored in the variable "who"
+>   - And in the last line, as we are using that variable "who" in the function alert, it is going to alert "undefined"
+<!-- > - To avoid this issue either we can keep the return expression at the same line next to return keyword followed by a space character.
+> - Or we can wrap our return expression in a parenthesis. provided the opening parenthesis must be in the same line with the retun keyword. -->
 
 
 ## 5. Are display: none; and visibility: hidden; are different? Explain.
